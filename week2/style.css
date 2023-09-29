@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Mooli', sans-serif;
     color: #505050;
 }
 
@@ -10,9 +10,10 @@ body {
 header {
     background-color: #893026;
     color: #fff;
+    position: fixed;
     text-align: center;
     padding: 20px;
-    position: sticky;
+    position: sticky; top: 0;
     width: 100%;
 
 }
@@ -41,7 +42,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 20px;
-    margin-top: 80px;
+    
 }
 
 nav li {
